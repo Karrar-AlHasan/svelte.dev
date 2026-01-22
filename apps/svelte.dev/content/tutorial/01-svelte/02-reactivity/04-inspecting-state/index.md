@@ -34,3 +34,5 @@ You can customise how the information is displayed by using `$inspect(...).with(
 /// file: App.svelte
 $inspect(numbers)+++.with(console.trace)+++;
 ```
+
+> [!NOTE] `$inspect` must be declared at the top level of the `<script>` tag, not inside functions.
